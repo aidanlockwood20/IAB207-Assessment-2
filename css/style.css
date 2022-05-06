@@ -1,0 +1,29 @@
+/* Changing the default font to Comfortaa and removing the default paddings and margins */
+* { 
+    font-family: 'Comfortaa', Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the carousel - adding height dimensions to size correctly */
+.carousel-img { 
+    height: 75vh;
+}
+
+/* Changing text inside main to Montserrat */
+
+main { 
+    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dropdown-items { 
+    list-style: none;
+}
+
+#container-half-1 { 
+    background-color: yellow;
+}
+
+#container-half-2 { 
+    background-color: green;
+}

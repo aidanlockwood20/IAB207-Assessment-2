@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 
     <!-- Global Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -32,7 +32,10 @@
                 <a href="#" class="navbar-brand px-5">Seminar Event Management System</a>
             </div>
             <div class="container">
-                <ul class="navbar-nav position-absolute end-0 px-5">
+                <ul class="navbar-nav position-absolute d-flex end-0 px-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Browse Events</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Login</a>
                     </li>
@@ -40,25 +43,44 @@
             </div>
         </nav>
 
-        <!-- Carousel, welcoming users to the site -->
+        <!-- Carousel, welcoming users to the site and prompting them to sign up -->
         <div id="carousel-main">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="avatar-1577909_1280.webp" class="d-block w-100" alt="Photo 1">
+                        <img src="img/Definite-Guide-to-Organizing-Seminars-and-Conferences.jpg"
+                            class="d-block w-100 carousel-img" alt="Photo 1">
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="Photo 2">
+                        <img src="img/events-seminars.jpg" class="d-block w-100 carousel-img" alt="Photo 2">
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="Photo 3">
+                        <img src="img/ThinkstockPhotos-499517325-789695-edited.jpg" class="d-block w-100 carousel-img"
+                            alt="Photo 3">
                     </div>
                 </div>
             </div>
         </div>
     </header>
     <main>
-        <!-- Section, with articles containing the features of the application -->
+        <div class="container-fluid bg-info">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="text-center">Hello Left</h1>
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="text-center">Hello Right</h1>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
 
