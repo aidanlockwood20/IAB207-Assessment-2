@@ -34,9 +34,6 @@
             <div class="container">
                 <ul class="navbar-nav position-absolute d-flex end-0 px-5">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Browse Events</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link active" href="#">Login</a>
                     </li>
                 </ul>
@@ -71,16 +68,184 @@
         </div>
     </header>
     <main>
+        <!-- The bar used to browse the different events available -->
         <div class="container-fluid bg-info">
             <div class="row">
-                <div class="col-lg-6">
-                    <h1 class="text-center">Hello Left</h1>
-                </div>
-                <div class="col-lg-6">
-                    <h1 class="text-center">Hello Right</h1>
+                <ul class="list-group list-group-horizontal">
+                    <div class="col-2">
+                        <a href="#" class="nav-item text-center seminar-opt-text">
+                            <li class="list-group-item-info list-item seminar-theme-opt">Workshops</li>
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#" class="nav-item text-center seminar-opt-text">
+                            <li class="list-group-item-info list-item seminar-theme-opt">Webinars</li>
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#" class="nav-item text-center seminar-opt-text">
+                            <li class="list-group-item-info list-item seminar-theme-opt">Business</li>
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#" class="nav-item text-center seminar-opt-text">
+                            <li class="list-group-item-info list-item seminar-theme-opt">Sporting</li>
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#" class="nav-item text-center seminar-opt-text">
+                            <li class="list-group-item-info list-item seminar-theme-opt">Festivals</li>
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#" class="nav-item text-center seminar-opt-text">
+                            <li class="list-group-item-info list-item seminar-theme-opt">Food Tours</li>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <!-- The title to display which event category is being shown -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center mt-5">Workshops</h1>
                 </div>
             </div>
         </div>
+        <!-- The section to display all the events availabe on the site -->
+        <section>
+            <article>
+                <div class="container mt-5">
+                    <div class="row">
+                        <!-- Setting the margin sides -->
+                        <div class="col-2"></div>
+
+                        <!-- Event Card -->
+                        <div class="col-10">
+                            <!-- Removing the border around the outside of the card -->
+                            <div class="card border-0">
+                                <a href="#" class="remove-link-format">
+                                    <div class="row">
+                                        <img src="img/RI8CD3_1.jpeg" alt="Cooking Workshop" class="img-fluid rounded-start">
+                                    </div>
+                                    <div class="row">
+                                    <!-- body of text -->
+                                        <div class="card-body bg-info">
+                                            <h3 class="card-title text-center">Cooking Workshop</h3>
+                                            <h4 class="card-subtitle">Upcoming</h4>
+                                            <h4 class="card-subtitle text-end text-muted">Workshop</h4>
+                                            <h5 class="card-subtitle text-start">Description</h5>
+                                            <p>A cooking experience for the whole family to enjoy</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Setting the margin sides -->
+                        <div class="col-2"></div>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="container mt-5">
+                    <div class="row">
+                        <!-- Setting the margin sides -->
+                        <div class="col-2"></div>
+
+                        <!-- Event Card -->
+                        <div class="col-10">
+                            <!-- Removing the border around the outside of the card -->
+                            <div class="card border-0">
+                                <a href="#" class="remove-link-format">
+                                    <div class="row">
+                                        <img src="img/safe-driving-course-brisbane-qld.jpeg" alt="Driving  Workshop" class="img-fluid rounded-start">
+                                    </div>
+                                    <div class="row">
+                                        <!-- body of text -->
+                                            <div class="card-body bg-info">
+                                                <h3 class="card-title text-center">Defensive Driving Workshop</h3>
+                                                <h4 class="card-subtitle">Cancelled</h4>
+                                                <h4 class="card-subtitle text-end text-muted">Workshop</h4>
+                                                <h5 class="card-subtitle text-start">Description</h5>
+                                                <p>Driving Experience with instructors to help you gain confidence on the road</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                        </div>
+
+                        <!-- Setting the margin sides -->
+                        <div class="col-2"></div>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="container mt-5">
+                    <div class="row">
+                        <!-- Setting the margin sides -->
+                        <div class="col-2"></div>
+
+                        <!-- Event Card -->
+                        <div class="col-10">
+                            <!-- Removing the border around the outside of the card -->
+                            <div class="card border-0">
+                                <a href="#" class="remove-link-format">
+                                    <div class="row">
+                                        <img src="img/barrista-course-melb.jpeg" alt="Barista Workshop" class="img-fluid rounded-start">
+                                    </div>
+                                    <div class="row">
+                                        <!-- body of text -->
+                                            <div class="card-body bg-info">
+                                                <h3 class="card-title text-center">Barista Course</h3>
+                                                <h4 class="card-subtitle">Inactive</h4>
+                                                <h4 class="card-subtitle text-end text-muted">Workshop</h4>
+                                                <p>Day course teaching you the basics of making coffee</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                        </div>
+
+                        <!-- Setting the margin sides -->
+                        <div class="col-2"></div>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="container mt-5">
+                    <div class="row">
+                        <!-- Setting the margin sides -->
+                        <div class="col-2"></div>
+
+                        <!-- Event Card -->
+                        <div class="col-10">
+                            <!-- Removing the border around the outside of the card -->
+                            <div class="card border-0">
+                                <a href="#" class="remove-link-format">
+                                    <div class="row">
+                                        <img src="img/uDTp9vKPTpDpi5BbQpx3qauy.jpeg" alt="Music Workshop" class="img-fluid rounded-start">
+                                    </div>
+                                    <div class="row">
+                                    <!-- body of text -->
+                                        <div class="card-body bg-info">
+                                            <h3 class="card-title text-center">Music Production Course</h3>
+                                            <h4 class="card-subtitle">Booked</h4>
+                                            <h4 class="card-subtitle text-end text-muted">Workshop</h4>
+                                            <p>Course designed to teach you the basics of music production!</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Setting the margin sides -->
+                        <div class="col-2"></div>
+                    </div>
+                </div>
+            </article>
+        </section>
     </main>
     <footer>
 

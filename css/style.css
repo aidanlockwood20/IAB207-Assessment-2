@@ -16,14 +16,40 @@ main {
     font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#dropdown-items { 
-    list-style: none;
-}
-
 #container-half-1 { 
     background-color: yellow;
 }
 
 #container-half-2 { 
     background-color: green;
+}
+
+/* Styling the seminar option themes */
+.list-item { 
+    list-style: none;
+}
+
+.seminar-theme-opt { 
+    height: 75px;
+    line-height: 75px;
+}
+
+.seminar-opt-text { 
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.seminar-theme-opt:hover { 
+    background-color: #5bc0de;
+}
+
+/* Adding a class to remove the underline and colour from links */
+.remove-link-format { 
+    text-decoration: none;
+    color: black;
+}
+
+.remove-link-format:hover { 
+    text-decoration: none;
+    color: black;
 }
