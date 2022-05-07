@@ -5,9 +5,13 @@
     padding: 0;
 }
 
-/* Styling the carousel - adding height dimensions to size correctly */
+/* Styling the images - adding height dimensions to size correctly */
 .carousel-img { 
     height: 75vh;
+}
+
+.event-img { 
+    width: 400%;
 }
 
 /* Changing text inside main to Montserrat */
@@ -57,3 +61,4 @@ main {
 .description-text {
     font-size: 20px;
 }
+
