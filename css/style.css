@@ -33,7 +33,13 @@ main {
 
 .seminar-opt-text { 
     text-decoration: none;
+    color: white;
     font-size: 20px;
+}
+
+.seminar-opt-text:hover { 
+    cursor: pointer;
+
 }
 
 .seminar-theme-opt:hover { 

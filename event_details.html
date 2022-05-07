@@ -27,19 +27,26 @@
     <header>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-info">
-            <div class="container">
-                <a href="/index.html" class="navbar-brand px-5">Seminar Event Management System</a>
-            </div>
-            <div class="container">
-                <ul class="navbar-nav position-absolute d-flex end-0 px-5">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./create_event.html">Add New Event</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./user_history.html" class="nav-link active">Booking History</a>
-                    </li>
-                </ul>
-            </div>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Seminar Bookings</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav d-flex justify-content-end px-5 bg-info w-100">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./create_event.html">Add New Event</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./user_history.html">Booking History</a>
+                        </li>
+                    </ul>
+                </div>
         </nav>
     </header>
 
@@ -77,14 +84,16 @@
                         <div class="container">
                             <h3 class="text-start">Mary</h3>
                             <h4 class="text-end">Posted 3 hours ago</h4>
-                            <p class="description-text">Was the best experience ever! Would recommend to all my friends!</p>
+                            <p class="description-text">Was the best experience ever! Would recommend to all my friends!
+                            </p>
                         </div>
                     </article>
                     <article class="mb-5">
                         <div class="container">
                             <h3 class="text-start">Scott</h3>
                             <h4 class="text-end">Posted 1 month ago</h4>
-                            <p class="description-text">Brought the entire family! Even the kids enjoyed every moment of cooking!</p>
+                            <p class="description-text">Brought the entire family! Even the kids enjoyed every moment of
+                                cooking!</p>
                         </div>
                     </article>
                     <article class="mb-5">
@@ -117,7 +126,8 @@
                                             aria-describedby="emailHelp">
                                     </div>
                                     <div class="mb-3">
-                                        <label for="customRange2" class="form-label">Number of Tickets (maximum of 4 can be purchased at once</label>
+                                        <label for="customRange2" class="form-label">Number of Tickets (maximum of 4 can
+                                            be purchased at once</label>
                                         <input type="number" name="numberOfTickets" min="1" max="4" class="w-25">
                                     </div>
                                     <button type="submit" class="form-control btn btn-info">Submit</button>
