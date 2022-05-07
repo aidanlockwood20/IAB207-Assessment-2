@@ -16,13 +16,6 @@ main {
     font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#container-half-1 { 
-    background-color: yellow;
-}
-
-#container-half-2 { 
-    background-color: green;
-}
 
 /* Styling the seminar option themes */
 .list-item { 
@@ -52,4 +45,15 @@ main {
 .remove-link-format:hover { 
     text-decoration: none;
     color: black;
+}
+
+/* Styling the buttons */
+.book-btn { 
+    font-size: 20px;
+    width: 150px;
+}
+
+/* Description Text */
+.description-text {
+    font-size: 20px;
 }
