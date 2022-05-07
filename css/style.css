@@ -1,0 +1,70 @@
+/* Changing the default font to Comfortaa and removing the default paddings and margins */
+* { 
+    font-family: 'Comfortaa', Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the images - adding height dimensions to size correctly */
+.carousel-img { 
+    height: 75vh;
+}
+
+.event-img { 
+    width: 400%;
+}
+
+/* Changing text inside main to Montserrat */
+
+main { 
+    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Styling the seminar option themes */
+.list-item { 
+    list-style: none;
+}
+
+.seminar-theme-opt { 
+    height: 75px;
+    line-height: 75px;
+}
+
+.seminar-opt-text { 
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.seminar-opt-text:hover { 
+    cursor: pointer;
+
+}
+
+.seminar-theme-opt:hover { 
+    background-color: #5bc0de;
+}
+
+/* Adding a class to remove the underline and colour from links */
+.remove-link-format { 
+    text-decoration: none;
+    color: black;
+}
+
+.remove-link-format:hover { 
+    text-decoration: none;
+    color: black;
+}
+
+/* Styling the buttons */
+.book-btn { 
+    font-size: 20px;
+    width: 150px;
+}
+
+/* Description Text */
+.description-text {
+    font-size: 20px;
+}
+
